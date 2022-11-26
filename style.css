@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.open{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0, 1));
+    transition: all ease 0.5s;
+}
+
+.menuOpen{
+    height: 100vh;
+    overflow-y: hidden;
+}
